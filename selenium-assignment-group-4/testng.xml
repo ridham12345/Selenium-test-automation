@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.selenium.App"/>
+      <class name="com.selenium.Screenshot"/>
+      <class name="seleniumScenarios.Scenario1"/>
+      <class name="seleniumScenarios.Scenario2"/>
+      <class name="seleniumScenarios.Scenario3"/>
+      <class name="seleniumScenarios.Scenario4"/>
+      <class name="seleniumScenarios.Scenario5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
